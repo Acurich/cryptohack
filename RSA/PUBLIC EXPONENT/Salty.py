@@ -1,0 +1,4 @@
+c = 44981230718212183604274785925793145442655465025264554046028251311164494127485
+print(bytes.fromhex(hex(c)[2:]).decode())
+
+Flag: crypto{saltstack_fell_for_this!}
